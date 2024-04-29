@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  position: relative; /* Add this line */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative; /* Add this line */
+}
+
+.product-container {
+  position: relative;
+  display: inline-block;
+}
+
+.product-details {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: center;
+}
+
+.product-details h5,
+.product-details p {
+  margin: 0;
+}
+
+.product-details button {
+  margin-top: 10px;
+}
+.h1 {
+  font-family:"Oswald Bold", bold, sans-serif;
+  text-align: center;
+  font-size: 60px; 
+color: rgb(255, 240, 251);}
+.h2{
+  text-align: center;
+}
